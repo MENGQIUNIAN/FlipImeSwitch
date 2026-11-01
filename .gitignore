@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# 本机配置（含 SDK 绝对路径，不应提交）
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+captures/
+
+# 构建产物
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# 只保留最新发布版 APK，历史版本不进仓库
+!FlipImeSwitch-v1.7.apk
